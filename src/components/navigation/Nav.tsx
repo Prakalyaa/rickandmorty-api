@@ -25,6 +25,12 @@ export function Navbar() {
                 <Link to="/locations">Locations</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
+
+        <NavigationMenuItem>
+              <NavigationMenuLink asChild>
+                <Link to="/episodes">Episodes</Link>
+              </NavigationMenuLink>
+            </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
       </div>

@@ -4,6 +4,8 @@ import { CharacterDetailPage } from "./pages/CharacterDetailPage";
 import { LocationDetailPage } from "./pages/LocationDetailPage";
 import { LocationsPage } from "./pages/LocationPage";
 import {Navbar} from "@/components/navigation/Nav";
+import { EpisodeDetailPage } from "./pages/EpisodeDetailPage";
+import { EpisodesPage } from "./pages/EpisodePage";
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <Route path="/character/:id" element={<CharacterDetailPage />} />
         <Route path="/locations" element={<LocationsPage />} />
         <Route path="/location/:id" element={<LocationDetailPage />} />
+        <Route path="/episodes" element={<EpisodesPage />} />
+        <Route path="/episode/:id" element={<EpisodeDetailPage />} />
       </Routes>
     </>
   );

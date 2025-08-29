@@ -16,6 +16,9 @@ export function CharacterCard({ character }: Props) {
         <p>Status: {character.status}</p>
         <p>Species: {character.species}</p>
         <p>Gender: {character.gender}</p>
+        <p className="text-xs text-gray-500">
+          Created: {new Date(character.created).toLocaleDateString()}
+        </p>
       </CardContent>
     </Card>
   );

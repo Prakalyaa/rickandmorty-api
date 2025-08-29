@@ -13,7 +13,7 @@ type Props = {
   onPageChange: (page: number) => void;
 };
 
-export function PaginationControls({ currentPage, totalPages, onPageChange }: Props) {
+export function EpisodePagination({ currentPage, totalPages, onPageChange }: Props) {
   if (totalPages <= 1) return null;
 
   return (
