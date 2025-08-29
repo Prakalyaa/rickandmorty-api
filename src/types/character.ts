@@ -1,5 +1,3 @@
-// src/types/character.ts
-
 //pagination info returned by api
 export interface ApiInfo {
   count: number;
